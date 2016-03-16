@@ -14,6 +14,7 @@ public class Telefono {
     //Atributo,instanciar objeto
     public botonApagar EA = new botonApagar();
     Tecla[][] Teclado = new Tecla[5][3];
+    static Contacto[]Contactos=new Contacto[100];
 
     public void setTeclado() {
         int n =0;
@@ -45,5 +46,6 @@ public class Telefono {
             aux6.setDigito('T');
             Teclado[4][2] = aux6;
         }
+        
     }
 }
